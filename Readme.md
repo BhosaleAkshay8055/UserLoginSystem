@@ -28,8 +28,9 @@
 
 # and test the APIs.
 
-# Docker file also created run below command for execute this
+# For create a docker container and run execute the following commands
 
+    docker compose build
     docker compose up
 
 
