@@ -24,7 +24,9 @@
 
     uvicorn main:app --host 0.0.0.0 --port 8001 --reload
 
-# After application start go to URL: http://127.0.0.1:8001/docs
+# After application start go to the url and test
+
+    URL: http://127.0.0.1:8001/docs
 
 # and test the APIs.
 
