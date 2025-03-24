@@ -1,6 +1,7 @@
-1. Activate virtual environment:
-goto cd ./my_env/Scripts
-then ./activate
+# Activate virtual environment:
+    Create new folder in root directory
+    '''goto cd ./my_env/Scripts'''
+    then ./activate
 
 # then go back to root directory and install dependencies
 
