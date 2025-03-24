@@ -1,23 +1,35 @@
-# Activate virtual environment:
-    Create new folder in root directory
-    '''goto cd ./my_env/Scripts'''
-    then ./activate
+# Create and activate a virtual environment:
+    Execute the below commands to create a virtual environment
+    
+    pip install virtualenv   
+    virtualenv my_env
+    
+    Activate this 
+    goto newly created my_env folder
+    cd ./my_env/Scripts
+    then execute 
+    ./activate
 
-# then go back to root directory and install dependencies
-
-2. pip install requirements.txt
-
-3. Create .env file and your SECRET_KEY and DATABASE_URL like below 
+# Then go back to the root directory and install dependencies
+ 
+    pip install requirements.txt
+    
+    Create .env file and add your SECRET_KEY and DATABASE_URL like below 
 
     SECRET_KEY=secret_keyAkshay
 
     DATABASE_URL=postgresql://postgres:1234@localhost/userAuth
 
-# then run code using the following command:
+# Then run the code using the following command:
 
-    '''uvicorn main:app --host 0.0.0.0 --port 8001 --reload'''
+    uvicorn main:app --host 0.0.0.0 --port 8001 --reload
 
-# after application start go to url: http://127.0.0.1:8001/docs
+# After application start go to URL: http://127.0.0.1:8001/docs
 
-# and test the apis.
+# and test the APIs.
+
+# Docker file also created run below command for execute this
+
+    docker compose up
+
 
